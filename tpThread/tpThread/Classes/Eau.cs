@@ -4,14 +4,15 @@ using System.Text;
 
 namespace tpThread.Classes
 {
-    class Eau
+    public class Eau
     {
-        static int volume;
+        public static int volume;
 
         public Eau(int v)
         {
             volume = v;
         }
-        
+
+        public int Volume { get => volume; set => volume = value; }
     }
 }
